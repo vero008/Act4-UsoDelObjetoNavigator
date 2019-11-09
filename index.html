@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta http-equiv="Content-type" content="text/html;
+charset=utf-8">
+    <meta name="viewport" id="viewport"
+content="width=device-width, height=device-height,
+initial-scale=1.0, maximum-scale=1.0,
+user-scalable=no;" />
+    
+    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+        function onDeviceReady() {
+            navigator.notification.alert("¡PhoneGap está listo!"); }
+        function OnConfirm() {
+            navigator.notification.confirm('¿Deseas continuar?'); }
+        function OnPrompt() {
+               navigator.notification.prompt(''); }
+        function OnBeep() {
+            navigator.notification.beep(2); }
+    </script>
+</head>
+
+    <body>
+	    <center> <h1>Actividad 4. Uso del objeto Navigator.Notification</h1></center>
+        <center> <h3>Ejemplo en PhoneGap.</h3> </center>
+        <center> <h2>Verónica Aguirre Frías y Mariana Judith Guerrero Moreno</h2> </center>
+	<center>
+        <input id="btn1" type="button" class="btn1_alert" value="Alert" onclick="onDeviceReady();" />
+        <input id="btn2" type="button" class="btn2_conf" value="Confirm" onclick="OnConfirm();" />
+        <input id="btn3" type="button" class="btn3_prompt" value="Prompt" onclick="OnPrompt();" />
+        <input id="btn4" type="button" class="btn4_beep" value="Beep" onclick="OnBeep();" />
+        </center>
+	
+</body>
+</html>

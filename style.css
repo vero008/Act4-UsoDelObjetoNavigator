@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+ }
+.btn1_alert{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2ECC71;
+    border-radius: 6px;
+    border: 2px solid #0E6655;
+  }
+ .btn1_alert:hover{
+    color: #F4D03F;
+    background-color: #48C9B0;
+  }
+
+.btn2_conf{
+   text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2ECC71;
+    border-radius: 6px;
+    border: 2px solid #0E6655;
+  }
+.btn2_conf:hover{
+    color: #F4D03F;
+    background-color: #48C9B0;
+  }
+
+.btn3_prompt{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2ECC71;
+    border-radius: 6px;
+    border: 2px solid #0E6655;
+  }
+.btn3_prompt:hover{
+    color: #F4D03F;
+    background-color: #48C9B0;
+  }
+
+.btn4_beep{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2ECC71;
+    border-radius: 6px;
+    border: 2px solid #0E6655;
+  }
+.btn4_beep:hover{
+     color: #F4D03F;
+    background-color: #48C9B0;
+  }
